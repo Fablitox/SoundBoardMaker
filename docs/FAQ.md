@@ -16,9 +16,13 @@ Soundboard Maker sera distribué avec **un installateur Windows .exe**. Aucune v
 
 Le plugin est proposé séparément au format **.streamDeckPlugin**, tant qu'il n'est pas publié sur Elgato Marketplace. Il s'ouvre avec le logiciel Stream Deck. Voir [Installation](INSTALLATION.md).
 
-### Le logiciel nécessite-t-il Wave Link ?
+### Wave Link est-il obligatoire pour utiliser Soundboard Maker ?
 
-Non pour la lecture audio standard sur une sortie Windows. Certaines intégrations audio spécifiques peuvent nécessiter des composants et des périphériques adaptés.
+**Non, pas pour écouter vos sons** au casque ou sur vos enceintes : une sortie audio Windows ordinaire suffit.
+
+**Oui, pour diffuser les sons dans votre entrée microphone virtuelle** (Discord, jeux, chat vocal) avec la configuration prise en charge par Soundboard Maker. Il faut utiliser **Elgato Wave Link** pour recevoir les sons sur un canal de sortie, les router vers **MicrophoneFX** et sélectionner ce périphérique comme micro dans l'application vocale. Soundboard Maker ne crée pas lui-même un microphone virtuel.
+
+Voir [Diffuser des sons dans son microphone](INSTALLATION.md#diffuser-des-sons-dans-son-microphone).
 
 ### Peut-on lire et sauvegarder les mêmes formats ?
 

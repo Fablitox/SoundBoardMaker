@@ -30,6 +30,14 @@ Soundboard Maker rassemble une bibliothèque audio organisée, un éditeur inté
 
 > Les formats disponibles pour la lecture et pour l'export ne sont pas nécessairement identiques. Consulter la [FAQ](docs/FAQ.md) pour les limites connues.
 
+## Diffuser des sons dans votre microphone (Discord, jeux…)
+
+**Wave Link est obligatoire pour le routage vers le microphone virtuel pris en charge par Soundboard Maker.** Pour que vos amis entendent les sons dans Discord ou un chat vocal comme s'ils provenaient de votre micro, vous devez configurer une sortie audio dans **Elgato Wave Link**, puis utiliser sa sortie microphone virtuelle (par exemple **Wave Link MicrophoneFX**) comme entrée de votre application vocale.
+
+**Wave Link n'est pas nécessaire pour écouter simplement les sons** sur vos enceintes ou votre casque. Soundboard Maker ne crée pas à lui seul un microphone virtuel.
+
+Consultez le [guide de configuration](docs/INSTALLATION.md#diffuser-des-sons-dans-son-microphone).
+
 ## Télécharger
 
 **La première version publique (1.0) est en préparation. Aucun téléchargement n'est encore proposé dans ce dépôt.**

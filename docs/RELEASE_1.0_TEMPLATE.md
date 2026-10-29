@@ -25,6 +25,10 @@ Première version publique de Soundboard Maker pour Windows 11.
 2. Exécuter le fichier .exe et suivre les instructions.
 3. Installer, si nécessaire, le plugin .streamDeckPlugin avec le logiciel Elgato Stream Deck.
 
+## Configuration audio microphone
+
+**Wave Link est requis pour diffuser les sons de Soundboard Maker dans une entrée microphone virtuelle** (Discord, jeux et chat vocal) via le routage pris en charge. Configurez un canal de sortie Wave Link vers MicrophoneFX, puis sélectionnez Wave Link MicrophoneFX comme micro dans l'application vocale. **Wave Link n'est pas nécessaire pour écouter les sons normalement.** Voir [Installation](INSTALLATION.md#diffuser-des-sons-dans-son-microphone).
+
 ## Problèmes connus
 
 Consommation CPU : sur certaines configurations, une consommation CPU plus élevée peut être observée lorsque la fenêtre de Soundboard Maker reste affichée. Des investigations complémentaires sont prévues a la suite des retours utilisateurs.

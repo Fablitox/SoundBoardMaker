@@ -7,6 +7,7 @@
 - Windows 11 64 bits.
 - Une sortie audio fonctionnelle pour la lecture et les captures concernées.
 - Pour l'intégration : logiciel Elgato Stream Deck et plugin Soundboard Maker.
+- **Pour diffuser les sons dans le microphone virtuel d'un jeu ou de Discord : Elgato Wave Link est requis pour le routage pris en charge par Soundboard Maker.** La lecture normale au casque ou sur les enceintes n'en a pas besoin.
 
 ## Installer le logiciel
 
@@ -28,6 +29,20 @@ Tant que l'intégration n'est pas publiée sur Elgato Marketplace :
 4. Vérifiez que Soundboard Maker est lancé et que les actions du plugin sont disponibles.
 
 Le plugin possède sa propre version, qui peut différer de celle de l'application.
+
+## Diffuser des sons dans son microphone
+
+**Wave Link est nécessaire pour diffuser les sons de Soundboard Maker comme entrée microphone dans la configuration prise en charge.** Sans ce routage, Soundboard Maker peut lire ses sons sur une sortie Windows, mais ne crée pas automatiquement de microphone virtuel que Discord ou un jeu peut sélectionner.
+
+1. Installez et ouvrez **Elgato Wave Link**.
+2. Dans Wave Link, configurez un canal pour les effets sonores (par exemple **SFX**) ou une sortie virtuelle adaptée à votre version.
+3. Dans Soundboard Maker, choisissez comme **périphérique de sortie** le canal Wave Link correspondant, afin que les sons y soient envoyés.
+4. Dans Wave Link, dirigez ce canal vers **MicrophoneFX** (option « Route to MicrophoneFX » lorsqu'elle est disponible) ou le mix microphone équivalent selon votre version.
+5. Dans Discord ou le jeu, choisissez **Wave Link MicrophoneFX** comme périphérique d'entrée microphone, puis testez le résultat.
+
+L'installation et les noms exacts des canaux peuvent varier selon la version de Wave Link. Voir le [guide officiel Elgato sur les soundboards et MicrophoneFX](https://help.elgato.com/hc/en-us/articles/13836129008269-Elgato-Wave-Link-How-to-use-a-Soundboard-with-MicrophoneFX).
+
+> **À retenir :** Wave Link est requis pour **la diffusion dans l'entrée microphone** décrite ici, mais pas pour lire les sons localement sur un casque ou des haut-parleurs.
 
 ## Mettre à jour
 

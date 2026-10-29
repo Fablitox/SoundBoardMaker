@@ -30,6 +30,14 @@ Soundboard Maker brings a local sound library, integrated audio editing, playbac
 
 > Playback and save/export formats may differ depending on the feature.
 
+## Play sounds through your microphone (Discord, games…)
+
+**Wave Link is required for the virtual-microphone routing supported by Soundboard Maker.** To let others hear your sounds in Discord or in-game voice chat as part of your microphone input, route the audio through **Elgato Wave Link** and choose its virtual microphone output (for example, **Wave Link MicrophoneFX**) as your voice-chat input.
+
+**Wave Link is not required just to listen to sounds** through your speakers or headphones. Soundboard Maker does not create its own virtual microphone device.
+
+See the [setup guide](docs/INSTALLATION.en.md#play-sounds-through-your-microphone).
+
 ## Downloads
 
 **The first public release (1.0) is being prepared. There are no downloads available here yet.**
