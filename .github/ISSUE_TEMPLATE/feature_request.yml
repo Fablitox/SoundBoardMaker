@@ -1,0 +1,76 @@
+name: "💡 Proposer une amélioration — Français"
+description: "Partager une idée pour améliorer Soundboard Maker."
+title: "[Idée] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### 💡 Une idée pour Soundboard Maker ?
+        Merci de votre participation ! Consultez les [suggestions existantes](https://github.com/Fablitox/SoundBoardMaker/issues) avant d'en créer une nouvelle. Pour échanger librement ou lancer un sondage, vous pouvez aussi utiliser les [Discussions](https://github.com/Fablitox/SoundBoardMaker/discussions).
+  - type: dropdown
+    id: feature
+    attributes:
+      label: "Partie du logiciel concernée"
+      description: "Sélectionnez l'endroit où votre idée serait utile."
+      options:
+        - "Bibliothèque, recherche et favoris"
+        - "Soundboard intégré (pages et boutons)"
+        - "Éditeur audio"
+        - "Lecture et périphériques audio"
+        - "Enregistrement / Capture"
+        - "Replay Buffer"
+        - "Plugin ou connexion Stream Deck"
+        - "Installation et mises à jour"
+        - "Interface, langue et affichage"
+        - "Autre"
+    validations:
+      required: true
+  - type: textarea
+    id: need
+    attributes:
+      label: "Quel besoin souhaitez-vous résoudre ?"
+      description: "Décrivez votre utilisation actuelle et ce qui manque au logiciel."
+      placeholder: "Ex. : j'utilise beaucoup de pages Soundboard et je voudrais retrouver un son plus rapidement."
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: "Quelle amélioration proposez-vous ?"
+      description: "Décrivez concrètement le fonctionnement souhaité."
+      placeholder: "Ex. : ajouter un raccourci pour rechercher parmi les boutons du Soundboard."
+    validations:
+      required: true
+  - type: textarea
+    id: benefit
+    attributes:
+      label: "Pourquoi cette fonctionnalité serait-elle utile ? (facultatif)"
+      description: "Donnez un exemple d'utilisation concret ou dites à qui elle profiterait."
+      placeholder: "Ex. : pendant une conversation Discord, je pourrais lancer un son sans interrompre mon jeu."
+    validations:
+      required: false
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: "Solutions alternatives déjà essayées (facultatif)"
+      description: "Partagez ce que vous utilisez actuellement et ce qui ne vous convient pas."
+      placeholder: "Ex. : j'organise les sons dans des dossiers mais c'est moins rapide."
+    validations:
+      required: false
+  - type: textarea
+    id: details
+    attributes:
+      label: "Illustrations et informations complémentaires (facultatif)"
+      description: "Vous pouvez joindre une maquette ou une capture sans donnée personnelle."
+      placeholder: "Croquis, images anonymisées, autres exemples…"
+    validations:
+      required: false
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: "Confidentialité"
+      description: "Votre suggestion sera publique."
+      options:
+        - label: "Je n'ai pas inclus de fichier audio personnel, d'identifiant, de jeton ou d'information privée."
+          required: true

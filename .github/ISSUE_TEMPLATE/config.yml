@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: "💬 Questions, avis et entraide / Questions & feedback"
+    url: "https://github.com/Fablitox/SoundBoardMaker/discussions"
+    about: "Pour les questions générales et les retours d'expérience / For general questions and feedback."
+  - name: "📖 Documentation / Wiki"
+    url: "https://github.com/Fablitox/SoundBoardMaker/wiki"
+    about: "Guides et FAQ en français et anglais / French and English documentation and FAQ."

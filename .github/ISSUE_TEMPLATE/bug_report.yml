@@ -1,0 +1,156 @@
+name: "🐛 Signaler un bug — Français"
+description: "Décrire un dysfonctionnement et joindre les diagnostics utiles."
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### 🐛 Signaler un problème
+        Merci de nous aider à améliorer **Soundboard Maker**. Avant de commencer, consultez les [issues existantes](https://github.com/Fablitox/SoundBoardMaker/issues) et la [FAQ](https://github.com/Fablitox/SoundBoardMaker/wiki/FAQ-FR). Pour une question générale, utilisez plutôt les [Discussions](https://github.com/Fablitox/SoundBoardMaker/discussions).
+        
+        Les champs marqués comme obligatoires permettent de reproduire et de corriger le problème plus rapidement.
+  - type: dropdown
+    id: feature
+    attributes:
+      label: "Fonction concernée"
+      description: "Dans quelle partie du logiciel le problème survient-il ?"
+      options:
+        - "Bibliothèque, recherche et favoris"
+        - "Soundboard intégré (pages et boutons)"
+        - "Éditeur audio"
+        - "Lecture et périphériques audio"
+        - "Enregistrement / Capture"
+        - "Replay Buffer"
+        - "Plugin ou connexion Stream Deck"
+        - "Installation et mises à jour"
+        - "Interface, langue et affichage"
+        - "Autre"
+    validations:
+      required: true
+  - type: input
+    id: app-version
+    attributes:
+      label: "Version de Soundboard Maker"
+      description: "Disponible dans Paramètres → À propos."
+      placeholder: "Ex. : 1.0.0"
+    validations:
+      required: true
+  - type: input
+    id: plugin-version
+    attributes:
+      label: "Version du plugin Stream Deck (si concerné)"
+      description: "Facultatif si le problème ne concerne pas Stream Deck."
+      placeholder: "Ex. : 1.0.0.0"
+    validations:
+      required: false
+  - type: dropdown
+    id: windows
+    attributes:
+      label: "Système d'exploitation"
+      description: "Sélectionnez la version de Windows utilisée."
+      options:
+        - "Windows 11"
+        - "Windows 10"
+        - "Autre / Je ne sais pas"
+    validations:
+      required: true
+  - type: input
+    id: windows-build
+    attributes:
+      label: "Version / build de Windows"
+      description: "Facultatif. Appuyez sur Win + R, saisissez winver, puis notez la version et le numéro de build (sans identifiant personnel)."
+      placeholder: "Ex. : Windows 11 24H2 — build 26100"
+    validations:
+      required: false
+  - type: textarea
+    id: system-info
+    attributes:
+      label: "Configuration système et audio (facultatif)"
+      description: "Précisez uniquement les informations utiles au problème : processeur, RAM, carte son ou périphérique audio, modèle Stream Deck, Wave Link et versions concernées."
+      placeholder: "Ex. : processeur Intel, 16 Go RAM, casque USB, Wave Link, Stream Deck MK.2"
+    validations:
+      required: false
+  - type: markdown
+    attributes:
+      value: |
+        ### 🔎 Description et reproduction
+        Expliquez précisément le problème, les manipulations qui le provoquent et la différence avec le comportement attendu.
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: "Étapes pour reproduire le problème"
+      description: "Décrivez une séquence que nous pouvons suivre sur une installation normale."
+      placeholder: |
+        1. Ouvrir Soundboard Maker...
+        2. Lancer un son...
+        3. Appuyer sur Enregistrer depuis Stream Deck...
+        4. Observer le problème.
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: "Comportement observé"
+      description: "Que se passe-t-il exactement ? Mentionnez les erreurs, blocages ou déconnexions."
+      placeholder: "Décrivez ce que vous voyez, avec un éventuel message d'erreur."
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: "Comportement attendu"
+      description: "Que devrait-il se passer à la place ?"
+      placeholder: "Décrivez le fonctionnement attendu."
+    validations:
+      required: true
+  - type: dropdown
+    id: frequency
+    attributes:
+      label: "Fréquence du problème"
+      description: "Facultatif : permet de savoir s'il est systématique ou intermittent."
+      options:
+        - "À chaque fois"
+        - "Souvent"
+        - "Parfois"
+        - "Une seule fois"
+        - "Je ne parviens plus à le reproduire"
+    validations:
+      required: false
+  - type: markdown
+    attributes:
+      value: |
+        ### 🧾 Logs de diagnostic / console (facultatifs)
+        Pour récupérer les informations concernant **ce problème précis** :
+        
+        1. Dans Soundboard Maker, ouvrez **Paramètres → Avancé**.
+        2. Cochez **Afficher les logs de diagnostic** pour afficher les événements *Replay, Record, Playback et Stream Deck* dans la fenêtre principale.
+        3. Reproduisez le problème et copiez uniquement les lignes correspondantes, avec un peu de contexte avant/après.
+        4. Vous pouvez aussi cliquer sur **Ouvrir les logs** dans les mêmes paramètres pour consulter les fichiers enregistrés (par exemple `%LOCALAPPDATA%\Soundboard Maker\Logs\app-YYYYMMDD.log`).
+        
+        **Important :** anonymisez les chemins utilisateurs, noms de fichiers, enregistrements, identifiants et toute donnée personnelle. **Ne collez pas le journal complet** si seules quelques lignes concernent le problème.
+  - type: textarea
+    id: diagnostic-logs
+    attributes:
+      label: "Extraits pertinents des logs de diagnostic"
+      description: "Collez ici uniquement les messages liés au problème après suppression des informations privées. Les extraits seront automatiquement présentés comme du code."
+      placeholder: "[Heure] [Playback/Stream Deck] Événement ou erreur…"
+      render: "shell"
+    validations:
+      required: false
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: "Captures d'écran et précisions supplémentaires (facultatif)"
+      description: "Vous pouvez glisser une capture ou détailler une solution temporaire. Masquez les chemins locaux et les informations personnelles."
+      placeholder: "Captures anonymisées, détails complémentaires, contournement éventuel…"
+    validations:
+      required: false
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: "Vérification avant publication"
+      description: "Cette issue est publique : les autres utilisateurs peuvent lire son contenu."
+      options:
+        - label: "J'ai retiré les informations personnelles, identifiants, jetons et données audio privées de mon signalement."
+          required: true
