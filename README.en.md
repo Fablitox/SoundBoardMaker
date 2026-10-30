@@ -44,6 +44,8 @@
 
 Create pages, organize your keys and play sounds **directly inside Soundboard Maker**, without a physical Stream Deck. Each key can control its own sound.
 
+> **Microphone routing (Discord, games):** Elgato Wave Link is required to route sounds into a virtual microphone input. It is not needed for ordinary headphone or speaker playback. [Setup guide](docs/INSTALLATION.en.md#play-sounds-through-your-microphone).
+
 <div align="center">
   <a href="docs/screenshots/Soundboard_EN.png"><img src="docs/screenshots/Soundboard_EN.png" alt="Built-in Soundboard with audio keys and pages inside Soundboard Maker" width="690"></a>
   <br><sub><b>The Soundboard built into the desktop application</b></sub>

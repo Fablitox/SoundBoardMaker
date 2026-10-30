@@ -44,6 +44,8 @@
 
 Créez plusieurs pages, organisez vos touches et déclenchez vos sons **directement depuis Soundboard Maker**, sans appareil Stream Deck. Chaque touche peut contrôler son propre son.
 
+> **Diffusion dans le microphone (Discord, jeux) :** Elgato Wave Link est nécessaire pour router les sons vers une entrée microphone virtuelle. Il n'est pas nécessaire pour une simple écoute au casque ou sur des enceintes. [Guide de configuration](docs/INSTALLATION.md#diffuser-des-sons-dans-son-microphone).
+
 <div align="center">
   <a href="docs/screenshots/Soundboard_FR.png"><img src="docs/screenshots/Soundboard_FR.png" alt="Soundboard intégré de Soundboard Maker, avec pages et touches audio" width="690"></a>
   <br><sub><b>Le Soundboard intégré au logiciel</b></sub>

@@ -35,3 +35,6 @@
 @media(max-width:780px){.featured-shot{grid-template-columns:1fr}.featured-copy{padding:25px}.featured-media{border-left:0;border-top:1px solid #343955;padding:8px}.featured-media img{max-height:none}}
 @media(max-width:700px){.nav nav a:nth-child(3),.nav nav a:nth-child(5){display:none}.feedback-section{padding-top:60px}}
 @media(prefers-reduced-motion:reduce){.featured-shot{transition:none}.featured-shot:hover{transform:none}}
+
+/* Low-profile microphone routing reminder in the built-in Soundboard feature card. */
+.featured-note{display:block;padding:10px 12px;border-left:2px solid #8887cf;border-radius:3px;background:#20253a;color:#c2cbe6;font-size:13px;line-height:1.55}
