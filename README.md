@@ -6,7 +6,7 @@
   <p><strong>Windows · Éditeur audio · Capture & Replay · Stream Deck</strong></p>
   <p><strong>🚀 Version 1.0 en préparation</strong></p>
   <p>🌐 <strong><a href="https://sbmaker.fablitox.fr/">Visiter le site officiel — sbmaker.fablitox.fr</a></strong></p>
-  <p><a href="README.en.md">English</a> · <a href="docs/INSTALLATION.md">Installation</a> · <a href="docs/FAQ.md">FAQ</a> · <a href="https://github.com/Fablitox/SoundBoardMaker/releases">Releases</a> · <a href="https://github.com/Fablitox/SoundBoardMaker/discussions">Donner mon avis</a></p>
+  <p><a href="README.en.md">English</a> · <a href="docs/INSTALLATION.md">Installation</a> · <a href="docs/FAQ.md">FAQ</a> · <a href="https://github.com/Fablitox/SoundBoardMaker/wiki">Wiki</a> · <a href="https://github.com/Fablitox/SoundBoardMaker/releases">Releases</a> · <a href="https://github.com/Fablitox/SoundBoardMaker/discussions">Donner mon avis</a></p>
 </div>
 
 ---
