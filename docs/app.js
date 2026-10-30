@@ -29,7 +29,7 @@ langButton.addEventListener('click',syncScreenshots);
 for(const btn of document.querySelectorAll('[data-shot-open]')){
   btn.addEventListener('click',()=>{
     const key=btn.dataset.shotOpen;
-    const label=btn.querySelector('strong')?.textContent||'Soundboard Maker';
+    const label=btn.closest('.featured-shot, .shot-card')?.querySelector('strong')?.textContent||'Soundboard Maker';
     shotDialogImage.dataset.key=key;
     shotDialogImage.src=shotSrc(key,state.language);
     shotDialogImage.alt=label;

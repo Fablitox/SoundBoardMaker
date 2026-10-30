@@ -24,17 +24,17 @@
 @media(max-width:720px){.download-cards{grid-template-columns:1fr;gap:12px}.download-card{min-height:auto;padding:18px}}
 
 /* The built-in Soundboard is featured separately beneath the four-item gallery. */
-.featured-shot{display:grid;grid-template-columns:minmax(0,.7fr) minmax(0,1.3fr);gap:0;margin-top:24px;width:100%;padding:0;background:#151b2b;border:1px solid #3b4563;border-radius:19px;color:#eff2ff;font:inherit;text-align:left;overflow:hidden;cursor:pointer;transition:transform .18s ease,border-color .18s ease}
-.featured-shot:hover,.featured-shot:focus-visible{border-color:#8a87ff;transform:translateY(-2px);outline:none}
+.featured-shot{display:grid;grid-template-columns:minmax(0,.7fr) minmax(0,1.3fr);gap:0;margin-top:24px;width:100%;padding:0;background:#151b2b;border:1px solid #3b4563;border-radius:19px;color:#eff2ff;font:inherit;text-align:left;overflow:hidden;transition:transform .18s ease,border-color .18s ease}
+.featured-shot:hover,.featured-shot:focus-within{border-color:#8a87ff;transform:translateY(-2px);outline:none}
 .featured-copy{display:flex;flex-direction:column;align-items:flex-start;justify-content:center;gap:13px;padding:30px}
 .featured-copy strong{font-size:clamp(23px,2.5vw,31px);line-height:1.2;letter-spacing:-.035em}
-.featured-description{color:#bac5dc;font-size:15px;line-height:1.7}.featured-view{font-size:14px;font-weight:700;color:#b7b6ff;margin-top:5px}
-.featured-media{display:flex;align-items:center;justify-content:center;min-width:0;background:#101720;border-left:1px solid #343955;padding:10px}
+.featured-description{color:#bac5dc;font-size:15px;line-height:1.7}.featured-view{align-self:flex-start;font:inherit;font-size:14px;font-weight:700;color:#b7b6ff;margin-top:5px;padding:0;background:none;border:0;cursor:zoom-in;text-align:left}.featured-view:hover,.featured-view:focus-visible{text-decoration:underline;text-underline-offset:3px;outline-offset:3px}
+.featured-media{display:flex;align-items:center;justify-content:center;min-width:0;background:#101720;border:0;border-left:1px solid #343955;padding:10px;cursor:zoom-in;appearance:none}
 .featured-media img{display:block;width:100%;height:auto;max-height:440px;object-fit:contain;border-radius:9px}
 .feedback-section{text-align:center;max-width:980px;border-top:1px solid #303653}.feedback-section p{max-width:710px;margin:16px auto 28px;color:#b8c2db}
 @media(max-width:780px){.featured-shot{grid-template-columns:1fr}.featured-copy{padding:25px}.featured-media{border-left:0;border-top:1px solid #343955;padding:8px}.featured-media img{max-height:none}}
 @media(max-width:700px){.nav nav a:nth-child(3),.nav nav a:nth-child(5){display:none}.feedback-section{padding-top:60px}}
 @media(prefers-reduced-motion:reduce){.featured-shot{transition:none}.featured-shot:hover{transform:none}}
 
-/* Low-profile microphone routing reminder in the built-in Soundboard feature card. */
-.featured-note{display:block;padding:10px 12px;border-left:2px solid #8887cf;border-radius:3px;background:#20253a;color:#c2cbe6;font-size:13px;line-height:1.55}
+/* Small clickable Wave Link setup link inside the Soundboard feature card. */
+.featured-wave-link{display:inline-flex;align-items:center;align-self:flex-start;padding:6px 10px;border:1px solid #424a70;border-radius:9px;background:#20263b;color:#c9ccef;font-size:12px;font-weight:650;line-height:1.5;text-decoration:none}.featured-wave-link:hover,.featured-wave-link:focus-visible{background:#2a3050;color:#fff;border-color:#8986ff;text-decoration:underline;text-underline-offset:3px;outline-offset:3px}
