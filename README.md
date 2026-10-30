@@ -12,15 +12,32 @@
 
 ## Découvrez le logiciel
 
-<a href="docs/screenshots/Bibliotheque_FR.png"><img src="docs/screenshots/Bibliotheque_FR.png" width="430" alt="Bibliothèque de Soundboard Maker"></a>
+<div align="center">
+<table>
+  <tr>
+    <td align="center">
+      <a href="docs/screenshots/Bibliotheque_FR.png"><img src="docs/screenshots/Bibliotheque_FR.png" width="315" alt="Bibliothèque audio de Soundboard Maker"></a>
+      <br><sub><b>Bibliothèque audio</b></sub>
+    </td>
+    <td align="center">
+      <a href="docs/screenshots/Editeur_FR.png"><img src="docs/screenshots/Editeur_FR.png" width="315" alt="Éditeur audio de Soundboard Maker"></a>
+      <br><sub><b>Éditeur audio</b></sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="docs/screenshots/Capture_Replay_FR.png"><img src="docs/screenshots/Capture_Replay_FR.png" width="315" alt="Capture et Replay de Soundboard Maker"></a>
+      <br><sub><b>Capture & Replay</b></sub>
+    </td>
+    <td align="center">
+      <a href="docs/screenshots/StreamDeck_FR.png"><img src="docs/screenshots/StreamDeck_FR.png" width="315" alt="Plugin Stream Deck de Soundboard Maker"></a>
+      <br><sub><b>Stream Deck</b></sub>
+    </td>
+  </tr>
+</table>
+</div>
 
-| Éditeur audio | Capture et Replay |
-| --- | --- |
-| [![Éditeur audio](docs/screenshots/Editeur_FR.png)](docs/screenshots/Editeur_FR.png) | [![Capture et Replay](docs/screenshots/Capture_Replay_FR.png)](docs/screenshots/Capture_Replay_FR.png) |
-
-<a href="docs/screenshots/StreamDeck_FR.png"><img src="docs/screenshots/StreamDeck_FR.png" width="430" alt="Intégration Stream Deck"></a>
-
-*Captures réelles de Soundboard Maker — interface française. [English screenshots](README.en.md).*
+*Quatre captures réelles de l'application. Cliquez sur une image pour l'agrandir.*
 
 ## Un seul endroit pour tous vos sons
 

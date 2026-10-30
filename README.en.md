@@ -12,15 +12,32 @@
 
 ## See the application
 
-<a href="docs/screenshots/Bibliotheque_EN.png"><img src="docs/screenshots/Bibliotheque_EN.png" width="430" alt="Soundboard Maker library"></a>
+<div align="center">
+<table>
+  <tr>
+    <td align="center">
+      <a href="docs/screenshots/Bibliotheque_EN.png"><img src="docs/screenshots/Bibliotheque_EN.png" width="315" alt="Soundboard Maker sound library"></a>
+      <br><sub><b>Sound library</b></sub>
+    </td>
+    <td align="center">
+      <a href="docs/screenshots/Editeur_EN.png"><img src="docs/screenshots/Editeur_EN.png" width="315" alt="Soundboard Maker audio editor"></a>
+      <br><sub><b>Audio editor</b></sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="docs/screenshots/Capture_Replay_EN.png"><img src="docs/screenshots/Capture_Replay_EN.png" width="315" alt="Soundboard Maker recording and replay settings"></a>
+      <br><sub><b>Capture & Replay</b></sub>
+    </td>
+    <td align="center">
+      <a href="docs/screenshots/StreamDeck_EN.png"><img src="docs/screenshots/StreamDeck_EN.png" width="315" alt="Soundboard Maker Stream Deck integration"></a>
+      <br><sub><b>Stream Deck</b></sub>
+    </td>
+  </tr>
+</table>
+</div>
 
-| Audio editor | Capture & Replay |
-| --- | --- |
-| [![Audio editor](docs/screenshots/Editeur_EN.png)](docs/screenshots/Editeur_EN.png) | [![Capture and Replay](docs/screenshots/Capture_Replay_EN.png)](docs/screenshots/Capture_Replay_EN.png) |
-
-<a href="docs/screenshots/StreamDeck_EN.png"><img src="docs/screenshots/StreamDeck_EN.png" width="430" alt="Stream Deck integration"></a>
-
-*Actual Soundboard Maker screenshots — English interface. [Captures françaises](README.md).*
+*Four real screenshots of the application. Click a thumbnail to view its full-size image.*
 
 ## One place for all your sounds
 
