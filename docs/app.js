@@ -15,7 +15,6 @@ const shotDialogTitle=document.getElementById('shot-dialog-title');
 const shotDialogCaption=document.getElementById('shot-dialog-caption');
 
 function syncScreenshots(){
-  document.getElementById('hero-screenshot').src=shotSrc('Bibliotheque',state.language);
   for(const img of document.querySelectorAll('[data-shot]')){
     img.src=shotSrc(img.dataset.shot,state.language);
     const title=img.closest('.shot-card')?.querySelector('strong')?.textContent||'Soundboard Maker';

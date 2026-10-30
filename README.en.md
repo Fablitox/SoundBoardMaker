@@ -12,13 +12,13 @@
 
 ## See the application
 
-[![Soundboard Maker library](docs/screenshots/Bibliotheque_EN.png)](docs/screenshots/Bibliotheque_EN.png)
+<a href="docs/screenshots/Bibliotheque_EN.png"><img src="docs/screenshots/Bibliotheque_EN.png" width="430" alt="Soundboard Maker library"></a>
 
 | Audio editor | Capture & Replay |
 | --- | --- |
 | [![Audio editor](docs/screenshots/Editeur_EN.png)](docs/screenshots/Editeur_EN.png) | [![Capture and Replay](docs/screenshots/Capture_Replay_EN.png)](docs/screenshots/Capture_Replay_EN.png) |
 
-[![Stream Deck integration](docs/screenshots/StreamDeck_EN.png)](docs/screenshots/StreamDeck_EN.png)
+<a href="docs/screenshots/StreamDeck_EN.png"><img src="docs/screenshots/StreamDeck_EN.png" width="430" alt="Stream Deck integration"></a>
 
 *Actual Soundboard Maker screenshots — English interface. [Captures françaises](README.md).*
 

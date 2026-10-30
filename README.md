@@ -12,13 +12,13 @@
 
 ## Découvrez le logiciel
 
-[![Bibliothèque de Soundboard Maker](docs/screenshots/Bibliotheque_FR.png)](docs/screenshots/Bibliotheque_FR.png)
+<a href="docs/screenshots/Bibliotheque_FR.png"><img src="docs/screenshots/Bibliotheque_FR.png" width="430" alt="Bibliothèque de Soundboard Maker"></a>
 
 | Éditeur audio | Capture et Replay |
 | --- | --- |
 | [![Éditeur audio](docs/screenshots/Editeur_FR.png)](docs/screenshots/Editeur_FR.png) | [![Capture et Replay](docs/screenshots/Capture_Replay_FR.png)](docs/screenshots/Capture_Replay_FR.png) |
 
-[![Intégration Stream Deck](docs/screenshots/StreamDeck_FR.png)](docs/screenshots/StreamDeck_FR.png)
+<a href="docs/screenshots/StreamDeck_FR.png"><img src="docs/screenshots/StreamDeck_FR.png" width="430" alt="Intégration Stream Deck"></a>
 
 *Captures réelles de Soundboard Maker — interface française. [English screenshots](README.en.md).*
 
