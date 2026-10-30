@@ -3,8 +3,9 @@
   <h1>Soundboard Maker</h1>
   <p><strong>Your sounds. Your control.</strong></p>
   <p>A Windows app to organize, edit, record and trigger audio, with Stream Deck integration.</p>
-  <p><strong>Windows 11 · Audio Editor · Capture & Replay · Stream Deck</strong></p>
+  <p><strong>Windows · Audio Editor · Capture & Replay · Stream Deck</strong></p>
   <p><strong>🚀 Version 1.0 coming soon</strong></p>
+  <p>🌐 <strong><a href="https://sbmaker.fablitox.fr/">Visit the official website — sbmaker.fablitox.fr</a></strong></p>
   <p><a href="README.md">Français</a> · <a href="docs/INSTALLATION.en.md">Installation</a> · <a href="docs/FAQ.md">FAQ (FR)</a> · <a href="https://github.com/Fablitox/SoundBoardMaker/releases">Releases</a></p>
 </div>
 
@@ -69,14 +70,14 @@ See the [setup guide](docs/INSTALLATION.en.md#play-sounds-through-your-microphon
 
 ## Downloads
 
-**The first public release (1.0) is being prepared. There are no downloads available here yet.**
+**The first public release (1.0) is being prepared. There are no downloads available here yet.** Explore the app and setup guides on the **[official website](https://sbmaker.fablitox.fr/)**.
 
 When released, the [Releases](https://github.com/Fablitox/SoundBoardMaker/releases) page will provide only:
 
 | File | Purpose |
 | --- | --- |
 | **Windows installer (.exe)** | Install or update Soundboard Maker. |
-| **Stream Deck plugin (.streamDeckPlugin)** | Install the Elgato integration manually until it becomes available on Marketplace. |
+| **Stream Deck plugin (.streamDeckPlugin)** | Download from the same GitHub release and install manually **until it is available on Elgato Marketplace**. |
 
 **No portable ZIP distribution is planned.** Always verify the file version and source before running an installer.
 

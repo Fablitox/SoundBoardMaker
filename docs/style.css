@@ -15,3 +15,10 @@
 .shot-dialog img{display:block;width:100%;height:auto;max-height:calc(95vh - 110px);object-fit:contain;border-radius:7px}.shot-dialog p{font-size:12px;color:#c0c8e1;margin:8px 2px 0}
 @media(max-width:700px){.shot-grid{grid-template-columns:1fr;gap:15px}.shot-card:hover{transform:none}.showcase{padding-top:20px}.shot-dialog{padding:8px}}
 @media(prefers-reduced-motion:reduce){.shot-card{transition:none}.shot-card:hover{transform:none}}
+
+/* Public download options; download buttons activate after the stable release is published. */
+.download-cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;max-width:860px;margin:26px auto 28px;text-align:left}
+.download-card{display:flex;align-items:flex-start;gap:16px;padding:22px;border:1px solid #55547d;border-radius:17px;background:linear-gradient(145deg,#1e2147,#171d36);min-height:155px}
+.download-card-icon{display:grid;place-items:center;flex:none;width:45px;height:45px;border:1px solid #7372b6;border-radius:12px;background:#302e71;color:#dddfff;font-size:25px;font-weight:700}
+.download-card h3{font-size:18px;margin:0 0 6px;color:#f1f1ff}.download-card p{margin:0;color:#c0c6e0;font-size:14px;line-height:1.6}
+@media(max-width:720px){.download-cards{grid-template-columns:1fr;gap:12px}.download-card{min-height:auto;padding:18px}}

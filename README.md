@@ -3,8 +3,9 @@
   <h1>Soundboard Maker</h1>
   <p><strong>Vos sons, à portée de main.</strong></p>
   <p>Une application Windows pour organiser, éditer, enregistrer et déclencher vos sons, avec une intégration Stream Deck.</p>
-  <p><strong>Windows 11 · Éditeur audio · Capture & Replay · Stream Deck</strong></p>
+  <p><strong>Windows · Éditeur audio · Capture & Replay · Stream Deck</strong></p>
   <p><strong>🚀 Version 1.0 en préparation</strong></p>
+  <p>🌐 <strong><a href="https://sbmaker.fablitox.fr/">Visiter le site officiel — sbmaker.fablitox.fr</a></strong></p>
   <p><a href="README.en.md">English</a> · <a href="docs/INSTALLATION.md">Installation</a> · <a href="docs/FAQ.md">FAQ</a> · <a href="https://github.com/Fablitox/SoundBoardMaker/releases">Releases</a></p>
 </div>
 
@@ -69,14 +70,14 @@ Consultez le [guide de configuration](docs/INSTALLATION.md#diffuser-des-sons-dan
 
 ## Télécharger
 
-**La première version publique (1.0) est en préparation. Aucun téléchargement n'est encore proposé dans ce dépôt.**
+**La première version publique (1.0) est en préparation. Aucun téléchargement n'est encore proposé dans ce dépôt.** Retrouvez la présentation et les guides sur le **[site officiel](https://sbmaker.fablitox.fr/)**.
 
 Lors de sa publication, la page [Releases](https://github.com/Fablitox/SoundBoardMaker/releases) contiendra uniquement :
 
 | Fichier | Utilisation |
 | --- | --- |
 | **Installateur Windows (.exe)** | Installer et mettre à jour Soundboard Maker. |
-| **Plugin Stream Deck (.streamDeckPlugin)** | Installer manuellement l'intégration Elgato tant qu'elle n'est pas disponible sur Marketplace. |
+| **Plugin Stream Deck (.streamDeckPlugin)** | Téléchargement depuis cette même release GitHub et installation manuelle **jusqu'à sa publication sur Elgato Marketplace**. |
 
 **Pas de version ZIP/portable prévue.** Vérifiez toujours la version et la provenance des fichiers avant installation.
 

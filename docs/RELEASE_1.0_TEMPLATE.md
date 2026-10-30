@@ -1,45 +1,44 @@
-# Soundboard Maker 1.0
+# Soundboard Maker 1.0 — Première version publique
 
-Première version publique de Soundboard Maker pour Windows 11.
+**Soundboard Maker 1.0** est la première version publique du logiciel Windows dédié à l'organisation, l'édition et au déclenchement de sons, avec l'intégration Stream Deck.
 
 ## Fonctionnalités
 
-- Bibliothèque audio : dossiers, recherche, favoris et pages.
-- Lecture et contrôle de plusieurs sons indépendants.
-- Éditeur audio avec aperçu, découpe et sauvegarde.
-- Enregistrement de l'audio système et Replay Buffer.
-- Intégration Stream Deck et actions configurables.
-- Interface française et anglaise.
-- Vérification des mises à jour au démarrage et sur demande.
+- **Bibliothèque audio** : importation et classement des sons, recherche, dossiers, favoris et pages Soundboard.
+- **Éditeur audio intégré** : aperçu de la forme d'onde, sélection, découpe, traitements et sauvegarde des sons dans les formats pris en charge.
+- **Lecture indépendante** : plusieurs sons peuvent être déclenchés et contrôlés individuellement.
+- **Capture audio et Replay Buffer** : enregistrement de l'audio système et sauvegarde des dernières secondes.
+- **Intégration Stream Deck** : actions configurables pour lire un son, enregistrer, mémoriser le dernier son, utiliser le Replay Buffer et arrêter les lectures.
+- **Français et anglais**, avec vérification des mises à jour au lancement et sur demande.
 
 ## Téléchargements
 
-- **SoundboardMaker-Setup-1.0.0.exe** — Installateur Windows 11 64 bits.
-- **com.soundboardmaker.streamdeck.streamDeckPlugin** — Plugin Stream Deck, installation manuelle tant que la publication Elgato n'est pas disponible.
+Téléchargez les **deux fichiers joints à cette release** :
 
-> Remplacer ces noms par les noms EXACTS des artefacts réellement validés avant publication. Ne pas inclure de ZIP portable.
+1. **SoundboardMaker-Setup-1.0.0.exe** — Installateur de Soundboard Maker pour Windows.
+2. **com.soundboardmaker.streamdeck.streamDeckPlugin** — Plugin à installer dans le logiciel Elgato Stream Deck.
+
+**Important — Plugin Stream Deck :** tant que le plugin Soundboard Maker n'est pas disponible sur **Elgato Marketplace**, il se télécharge **directement depuis les releases de ce dépôt GitHub** et doit être installé **manuellement**. Après avoir installé l'application Elgato Stream Deck, ouvrez le fichier `.streamDeckPlugin` téléchargé et confirmez son installation.
+
+Aucune version ZIP/portable de Soundboard Maker n'est distribuée.
 
 ## Installation
 
-1. Télécharger l'installateur Windows.
-2. Exécuter le fichier .exe et suivre les instructions.
-3. Installer, si nécessaire, le plugin .streamDeckPlugin avec le logiciel Elgato Stream Deck.
+1. Téléchargez l'installateur Windows ci-dessus, lancez-le et suivez les instructions.
+2. Ouvrez Soundboard Maker et configurez votre bibliothèque de sons.
+3. Si vous utilisez Stream Deck, installez séparément le fichier `.streamDeckPlugin` fourni ici.
 
-## Configuration audio microphone
-
-**Wave Link est requis pour diffuser les sons de Soundboard Maker dans une entrée microphone virtuelle** (Discord, jeux et chat vocal) via le routage pris en charge. Configurez un canal de sortie Wave Link vers MicrophoneFX, puis sélectionnez Wave Link MicrophoneFX comme micro dans l'application vocale. **Wave Link n'est pas nécessaire pour écouter les sons normalement.** Voir [Installation](INSTALLATION.md#diffuser-des-sons-dans-son-microphone).
+**Pour diffuser les sons dans votre microphone** (Discord, jeux ou chat vocal) avec le routage pris en charge par Soundboard Maker, **Elgato Wave Link est nécessaire** : choisissez une sortie Wave Link dans Soundboard Maker, dirigez-la vers MicrophoneFX et sélectionnez ce microphone virtuel dans votre application vocale. **Wave Link n'est pas requis pour une simple écoute au casque ou sur des enceintes.**
 
 ## Problèmes connus
 
 Consommation CPU : sur certaines configurations, une consommation CPU plus élevée peut être observée lorsque la fenêtre de Soundboard Maker reste affichée. Des investigations complémentaires sont prévues a la suite des retours utilisateurs.
 
-## Vérifications avant publication (ne pas laisser dans la release)
+## Liens utiles
 
-- [ ] Version application et version plugin vérifiées sur les fichiers finaux.
-- [ ] Installation propre et mise à jour validées.
-- [ ] Aucune donnée personnelle, jeton, source ou profil privé dans les deux artefacts.
-- [ ] Empreintes SHA-256 calculées et conservées.
-- [ ] Aucun ZIP portable ajouté.
-- [ ] Recherche de mise à jour dirigée vers Fablitox/SoundBoardMaker.
-- [ ] Test de découverte de la vraie release publique, sans jeton personnel.
-- [ ] Le texte de ces notes reflète les fonctions et limites réellement validées.
+- **Site officiel :** https://sbmaker.fablitox.fr/
+- **Guide d'installation :** https://github.com/Fablitox/SoundBoardMaker/blob/main/docs/INSTALLATION.md
+- **Signaler un problème :** https://github.com/Fablitox/SoundBoardMaker/issues
+
+---
+*Cette page décrit la future version 1.0. Vérifiez le nom et la version des fichiers effectivement joints avant publication.*
