@@ -40,5 +40,3 @@ Consommation CPU : sur certaines configurations, une consommation CPU plus élev
 - **Guide d'installation :** https://github.com/Fablitox/SoundBoardMaker/blob/main/docs/INSTALLATION.md
 - **Signaler un problème :** https://github.com/Fablitox/SoundBoardMaker/issues
 
----
-*Cette page décrit la future version 1.0. Vérifiez le nom et la version des fichiers effectivement joints avant publication.*
