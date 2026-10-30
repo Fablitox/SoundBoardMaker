@@ -10,6 +10,18 @@
 
 ---
 
+## Découvrez le logiciel
+
+[![Bibliothèque de Soundboard Maker](docs/screenshots/Bibliotheque_FR.png)](docs/screenshots/Bibliotheque_FR.png)
+
+| Éditeur audio | Capture et Replay |
+| --- | --- |
+| [![Éditeur audio](docs/screenshots/Editeur_FR.png)](docs/screenshots/Editeur_FR.png) | [![Capture et Replay](docs/screenshots/Capture_Replay_FR.png)](docs/screenshots/Capture_Replay_FR.png) |
+
+[![Intégration Stream Deck](docs/screenshots/StreamDeck_FR.png)](docs/screenshots/StreamDeck_FR.png)
+
+*Captures réelles de Soundboard Maker — interface française. [English screenshots](README.en.md).*
+
 ## Un seul endroit pour tous vos sons
 
 Soundboard Maker rassemble une bibliothèque audio organisée, un éditeur intégré et des commandes de lecture et de capture dans une interface pensée pour une utilisation quotidienne.

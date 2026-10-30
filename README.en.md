@@ -10,6 +10,18 @@
 
 ---
 
+## See the application
+
+[![Soundboard Maker library](docs/screenshots/Bibliotheque_EN.png)](docs/screenshots/Bibliotheque_EN.png)
+
+| Audio editor | Capture & Replay |
+| --- | --- |
+| [![Audio editor](docs/screenshots/Editeur_EN.png)](docs/screenshots/Editeur_EN.png) | [![Capture and Replay](docs/screenshots/Capture_Replay_EN.png)](docs/screenshots/Capture_Replay_EN.png) |
+
+[![Stream Deck integration](docs/screenshots/StreamDeck_EN.png)](docs/screenshots/StreamDeck_EN.png)
+
+*Actual Soundboard Maker screenshots — English interface. [Captures françaises](README.md).*
+
 ## One place for all your sounds
 
 Soundboard Maker brings a local sound library, integrated audio editing, playback controls, system-audio recording and Replay Buffer into a single Windows application.
