@@ -1,3 +1,7 @@
+> **Documentation transférée dans le Wiki / Documentation moved to the Wiki.** Consultez la version à jour / Read the current guide: [Français](https://github.com/Fablitox/SoundBoardMaker/wiki/Assistance-FR) · [English](https://github.com/Fablitox/SoundBoardMaker/wiki/Support-EN).
+>
+> Cette copie est conservée pour les anciens liens. / This copy is retained for existing links.
+
 # Assistance / Support
 
 Ce dépôt public sert à suivre les retours sur les versions distribuées. Le code source et les discussions de développement internes ne sont pas publics.

@@ -1,3 +1,7 @@
+> **Documentation transférée dans le Wiki / Documentation moved to the Wiki.** Consultez la version à jour / Read the current guide: [Français](https://github.com/Fablitox/SoundBoardMaker/wiki/Installation-FR) · [English](https://github.com/Fablitox/SoundBoardMaker/wiki/Installation-EN).
+>
+> Cette copie est conservée pour les anciens liens. / This copy is retained for existing links.
+
 # Installation de Soundboard Maker
 
 > **Version 1.0 en préparation.** Les liens de téléchargement seront ajoutés lors de la première release publique.

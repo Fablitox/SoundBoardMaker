@@ -6,7 +6,7 @@
   <p><strong>Windows · Audio Editor · Capture & Replay · Stream Deck</strong></p>
   <p><strong>🚀 Version 1.0 coming soon</strong></p>
   <p>🌐 <strong><a href="https://sbmaker.fablitox.fr/">Visit the official website — sbmaker.fablitox.fr</a></strong></p>
-  <p><a href="README.md">Français</a> · <a href="docs/INSTALLATION.en.md">Installation</a> · <a href="docs/FAQ.md">FAQ (FR)</a> · <a href="https://github.com/Fablitox/SoundBoardMaker/wiki">Wiki</a> · <a href="https://github.com/Fablitox/SoundBoardMaker/releases">Releases</a> · <a href="https://github.com/Fablitox/SoundBoardMaker/discussions">Share feedback</a></p>
+  <p><a href="README.md">Français</a> · <a href="https://github.com/Fablitox/SoundBoardMaker/wiki/Installation-EN">Installation</a> · <a href="https://github.com/Fablitox/SoundBoardMaker/wiki/FAQ-EN">FAQ</a> · <a href="https://github.com/Fablitox/SoundBoardMaker/wiki/Welcome-EN">Wiki</a> · <a href="https://github.com/Fablitox/SoundBoardMaker/releases">Releases</a> · <a href="https://github.com/Fablitox/SoundBoardMaker/discussions">Share feedback</a></p>
 </div>
 
 ---
@@ -44,7 +44,7 @@
 
 Create pages, organize your keys and play sounds **directly inside Soundboard Maker**, without a physical Stream Deck. Each key can control its own sound.
 
-> **Microphone routing (Discord, games):** Elgato Wave Link is required to route sounds into a virtual microphone input. It is not needed for ordinary headphone or speaker playback. [Setup guide](docs/INSTALLATION.en.md#play-sounds-through-your-microphone).
+> **Microphone routing (Discord, games):** Elgato Wave Link is required to route sounds into a virtual microphone input. It is not needed for ordinary headphone or speaker playback. [Setup guide](https://github.com/Fablitox/SoundBoardMaker/wiki/Wave-Link-EN).
 
 <div align="center">
   <a href="docs/screenshots/Soundboard_EN.png"><img src="docs/screenshots/Soundboard_EN.png" alt="Built-in Soundboard with audio keys and pages inside Soundboard Maker" width="690"></a>
@@ -78,7 +78,7 @@ Soundboard Maker brings a local sound library, integrated audio editing, playbac
 
 **Wave Link is not required just to listen to sounds** through your speakers or headphones. Soundboard Maker does not create its own virtual microphone device.
 
-See the [setup guide](docs/INSTALLATION.en.md#play-sounds-through-your-microphone).
+See the [setup guide](https://github.com/Fablitox/SoundBoardMaker/wiki/Wave-Link-EN).
 
 ## Downloads
 
@@ -95,11 +95,11 @@ When released, the [Releases](https://github.com/Fablitox/SoundBoardMaker/releas
 
 ## Installation and support
 
-See the [installation guide](docs/INSTALLATION.en.md). Soundboard Maker targets 64-bit Windows 11. Stream Deck features require the Elgato Stream Deck software and the matching plugin.
+See the [installation guide](https://github.com/Fablitox/SoundBoardMaker/wiki/Installation-EN). Soundboard Maker targets 64-bit Windows 11. Stream Deck features require the Elgato Stream Deck software and the matching plugin.
 
 **Share your feedback:** visit [Soundboard Maker Discussions](https://github.com/Fablitox/SoundBoardMaker/discussions) for opinions, ideas and questions.
 
-**Found a reproducible bug?** Open a [GitHub Issue](https://github.com/Fablitox/SoundBoardMaker/issues/new/choose) and follow the [support guidelines](docs/SUPPORT.md). Never upload private sound files, personal logs or API tokens.
+**Found a reproducible bug?** Open a [GitHub Issue](https://github.com/Fablitox/SoundBoardMaker/issues/new/choose) and follow the [support guidelines](https://github.com/Fablitox/SoundBoardMaker/wiki/Support-EN). Never upload private sound files, personal logs or API tokens.
 
 ## About this repository
 

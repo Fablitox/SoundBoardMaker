@@ -6,7 +6,7 @@
   <p><strong>Windows · Éditeur audio · Capture & Replay · Stream Deck</strong></p>
   <p><strong>🚀 Version 1.0 en préparation</strong></p>
   <p>🌐 <strong><a href="https://sbmaker.fablitox.fr/">Visiter le site officiel — sbmaker.fablitox.fr</a></strong></p>
-  <p><a href="README.en.md">English</a> · <a href="docs/INSTALLATION.md">Installation</a> · <a href="docs/FAQ.md">FAQ</a> · <a href="https://github.com/Fablitox/SoundBoardMaker/wiki">Wiki</a> · <a href="https://github.com/Fablitox/SoundBoardMaker/releases">Releases</a> · <a href="https://github.com/Fablitox/SoundBoardMaker/discussions">Donner mon avis</a></p>
+  <p><a href="README.en.md">English</a> · <a href="https://github.com/Fablitox/SoundBoardMaker/wiki/Installation-FR">Installation</a> · <a href="https://github.com/Fablitox/SoundBoardMaker/wiki/FAQ-FR">FAQ</a> · <a href="https://github.com/Fablitox/SoundBoardMaker/wiki/Accueil">Wiki</a> · <a href="https://github.com/Fablitox/SoundBoardMaker/releases">Releases</a> · <a href="https://github.com/Fablitox/SoundBoardMaker/discussions">Donner mon avis</a></p>
 </div>
 
 ---
@@ -44,7 +44,7 @@
 
 Créez plusieurs pages, organisez vos touches et déclenchez vos sons **directement depuis Soundboard Maker**, sans appareil Stream Deck. Chaque touche peut contrôler son propre son.
 
-> **Diffusion dans le microphone (Discord, jeux) :** Elgato Wave Link est nécessaire pour router les sons vers une entrée microphone virtuelle. Il n'est pas nécessaire pour une simple écoute au casque ou sur des enceintes. [Guide de configuration](docs/INSTALLATION.md#diffuser-des-sons-dans-son-microphone).
+> **Diffusion dans le microphone (Discord, jeux) :** Elgato Wave Link est nécessaire pour router les sons vers une entrée microphone virtuelle. Il n'est pas nécessaire pour une simple écoute au casque ou sur des enceintes. [Guide de configuration](https://github.com/Fablitox/SoundBoardMaker/wiki/Wave-Link-FR).
 
 <div align="center">
   <a href="docs/screenshots/Soundboard_FR.png"><img src="docs/screenshots/Soundboard_FR.png" alt="Soundboard intégré de Soundboard Maker, avec pages et touches audio" width="690"></a>
@@ -70,7 +70,7 @@ Soundboard Maker rassemble une bibliothèque audio organisée, un éditeur inté
 - **Plugin Stream Deck :** commandes de lecture, enregistrement, dernier son, mémoire, replay et arrêt global.
 - **Interface française et anglaise.**
 
-> Les formats disponibles pour la lecture et pour l'export ne sont pas nécessairement identiques. Consulter la [FAQ](docs/FAQ.md) pour les limites connues.
+> Les formats disponibles pour la lecture et pour l'export ne sont pas nécessairement identiques. Consulter la [FAQ](https://github.com/Fablitox/SoundBoardMaker/wiki/FAQ-FR) pour les limites connues.
 
 ## Diffuser des sons dans votre microphone (Discord, jeux…)
 
@@ -78,7 +78,7 @@ Soundboard Maker rassemble une bibliothèque audio organisée, un éditeur inté
 
 **Wave Link n'est pas nécessaire pour écouter simplement les sons** sur vos enceintes ou votre casque. Soundboard Maker ne crée pas à lui seul un microphone virtuel.
 
-Consultez le [guide de configuration](docs/INSTALLATION.md#diffuser-des-sons-dans-son-microphone).
+Consultez le [guide de configuration](https://github.com/Fablitox/SoundBoardMaker/wiki/Wave-Link-FR).
 
 ## Télécharger
 
@@ -95,13 +95,13 @@ Lors de sa publication, la page [Releases](https://github.com/Fablitox/SoundBoar
 
 ## Installer et utiliser
 
-Consultez le [guide d'installation](docs/INSTALLATION.md) et les [questions fréquentes](docs/FAQ.md). Soundboard Maker est conçu pour Windows 11 64 bits. Pour les commandes Stream Deck, le logiciel Elgato Stream Deck et le plugin correspondant sont nécessaires.
+Consultez le [guide d'installation](https://github.com/Fablitox/SoundBoardMaker/wiki/Installation-FR) et les [questions fréquentes](https://github.com/Fablitox/SoundBoardMaker/wiki/FAQ-FR). Soundboard Maker est conçu pour Windows 11 64 bits. Pour les commandes Stream Deck, le logiciel Elgato Stream Deck et le plugin correspondant sont nécessaires.
 
 ## Retours des utilisateurs et assistance
 
 **Votre avis nous intéresse !** Utilisez les [Discussions Soundboard Maker](https://github.com/Fablitox/SoundBoardMaker/discussions) pour partager vos impressions, proposer une idée ou poser une question.
 
-Pour **signaler un bug reproductible**, utilisez plutôt les [Issues GitHub](https://github.com/Fablitox/SoundBoardMaker/issues/new/choose) en suivant le [guide d'assistance](docs/SUPPORT.md). Ne publiez jamais vos sons personnels, journaux privés ou jetons.
+Pour **signaler un bug reproductible**, utilisez plutôt les [Issues GitHub](https://github.com/Fablitox/SoundBoardMaker/issues/new/choose) en suivant le [guide d'assistance](https://github.com/Fablitox/SoundBoardMaker/wiki/Assistance-FR). Ne publiez jamais vos sons personnels, journaux privés ou jetons.
 
 ## À propos de ce dépôt
 
