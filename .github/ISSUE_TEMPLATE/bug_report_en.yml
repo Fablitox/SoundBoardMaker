@@ -121,14 +121,9 @@ body:
     attributes:
       value: |
         ### 🧾 Diagnostic / console logs (optional)
-        To collect information relevant to **this particular issue**:
-        
-        1. Open **Settings → Advanced** in Soundboard Maker.
-        2. Enable **Show diagnostic logs** (French UI: **Afficher les logs de diagnostic**) to display Replay, Record, Playback and Stream Deck events in the main window.
-        3. Reproduce the issue and copy only the relevant lines, with a little context before and after.
-        4. You can also select **Open logs** (French UI: **Ouvrir les logs**) in the same settings section to view the saved log files (for example `%LOCALAPPDATA%\Soundboard Maker\Logs\app-YYYYMMDD.log`).
-        
-        **Important:** redact account paths, filenames, recordings, tokens and any other personal data. **Do not post an entire log file** if only a few lines concern the issue.
+        For **instructions on enabling the diagnostic console, opening log files and finding messages related to the issue**, read the **[Support guide — English](https://github.com/Fablitox/SoundBoardMaker/wiki/Support-EN)**.
+
+        After reproducing the issue, paste only **relevant log excerpts** below. Redact personal file names and paths, usernames, tokens and other private details before posting.
   - type: textarea
     id: diagnostic-logs
     attributes:

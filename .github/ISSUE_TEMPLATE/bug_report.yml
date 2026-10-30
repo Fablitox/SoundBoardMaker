@@ -121,14 +121,9 @@ body:
     attributes:
       value: |
         ### 🧾 Logs de diagnostic / console (facultatifs)
-        Pour récupérer les informations concernant **ce problème précis** :
-        
-        1. Dans Soundboard Maker, ouvrez **Paramètres → Avancé**.
-        2. Cochez **Afficher les logs de diagnostic** pour afficher les événements *Replay, Record, Playback et Stream Deck* dans la fenêtre principale.
-        3. Reproduisez le problème et copiez uniquement les lignes correspondantes, avec un peu de contexte avant/après.
-        4. Vous pouvez aussi cliquer sur **Ouvrir les logs** dans les mêmes paramètres pour consulter les fichiers enregistrés (par exemple `%LOCALAPPDATA%\Soundboard Maker\Logs\app-YYYYMMDD.log`).
-        
-        **Important :** anonymisez les chemins utilisateurs, noms de fichiers, enregistrements, identifiants et toute donnée personnelle. **Ne collez pas le journal complet** si seules quelques lignes concernent le problème.
+        Pour savoir **comment afficher la console de diagnostic, ouvrir les journaux et retrouver les lignes liées au problème**, consultez le **[guide d'assistance — Français](https://github.com/Fablitox/SoundBoardMaker/wiki/Assistance-FR)**.
+
+        Après avoir reproduit le problème, copiez seulement les **extraits pertinents** ci-dessous. Masquez les noms et chemins personnels, les identifiants, les jetons et toute information privée avant de publier.
   - type: textarea
     id: diagnostic-logs
     attributes:
