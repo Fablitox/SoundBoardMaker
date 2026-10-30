@@ -1,16 +1,20 @@
 ---
-name: Suggestion
-about: Proposer une amélioration de Soundboard Maker
+name: "💡 Proposer une amélioration — Français"
+about: "Partager une idée ou demander une nouvelle fonctionnalité pour Soundboard Maker"
 title: "[Idée] "
-labels: enhancement
+labels: "enhancement"
 assignees: ""
 ---
 
-## Besoin
-Quel problème aimeriez-vous résoudre ?
+Merci de partager votre idée pour Soundboard Maker !
 
-## Proposition
-Comment cette fonction pourrait-elle aider ?
+## Besoin ou problème rencontré
+Quelle difficulté aimeriez-vous résoudre ? Dans quelle situation cette amélioration serait-elle utile ?
 
-## Contexte facultatif
-Ne publiez aucune donnée personnelle ni secret.
+## Amélioration proposée
+Décrivez la fonctionnalité souhaitée et son fonctionnement idéal.
+
+## Autres solutions ou contexte (facultatif)
+Avez-vous envisagé une autre solution ? Vous pouvez ajouter un exemple ou une capture anonymisée.
+
+> **Confidentialité :** ne publiez pas de fichiers audio personnels, d'identifiants, de jetons ni d'informations privées.
