@@ -1,4 +1,7 @@
 <div align="center">
+  <h3>🌐 <a href="README.md">🇫🇷 Lire en français</a> &nbsp; | &nbsp; 🇬🇧 English</h3>
+</div>
+<div align="center">
   <img src="docs/assets/logo.png" width="168" alt="Soundboard Maker logo">
   <h1>Soundboard Maker</h1>
   <p><strong>Your sounds. Your control.</strong></p>
@@ -6,7 +9,7 @@
   <p><strong>Windows · Audio Editor · Capture & Replay · Stream Deck</strong></p>
   <p><strong>🚀 Version 1.0 coming soon</strong></p>
   <p>🌐 <strong><a href="https://sbmaker.fablitox.fr/">Visit the official website — sbmaker.fablitox.fr</a></strong></p>
-  <p><a href="README.md">Français</a> · <a href="https://github.com/Fablitox/SoundBoardMaker/wiki/Installation-EN">Installation</a> · <a href="https://github.com/Fablitox/SoundBoardMaker/wiki/FAQ-EN">FAQ</a> · <a href="https://github.com/Fablitox/SoundBoardMaker/wiki/Welcome-EN">Wiki</a> · <a href="https://github.com/Fablitox/SoundBoardMaker/releases">Releases</a> · <a href="https://github.com/Fablitox/SoundBoardMaker/discussions">Share feedback</a></p>
+  <p><a href="https://github.com/Fablitox/SoundBoardMaker/wiki/Installation-EN">Installation</a> · <a href="https://github.com/Fablitox/SoundBoardMaker/wiki/FAQ-EN">FAQ</a> · <a href="https://github.com/Fablitox/SoundBoardMaker/wiki/Welcome-EN">Wiki</a> · <a href="https://github.com/Fablitox/SoundBoardMaker/releases">Releases</a> · <a href="https://github.com/Fablitox/SoundBoardMaker/discussions">Share feedback</a></p>
 </div>
 
 ---
