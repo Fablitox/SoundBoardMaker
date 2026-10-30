@@ -8,7 +8,7 @@ applyLanguage();loadRelease();
 
 /* Screenshots are now available in the public repository. Display the gallery
    immediately, with independently loading images instead of an all-or-nothing gate. */
-const shotSrc=(key,language)=>'screenshots/'+key+'_'+language.toUpperCase()+'.png?v=20261030-2';
+const shotSrc=(key,language)=>'screenshots/'+key+'_'+language.toUpperCase()+'.png?v=20261030-7';
 const shotDialog=document.getElementById('shot-dialog');
 const shotDialogImage=document.getElementById('shot-dialog-image');
 const shotDialogTitle=document.getElementById('shot-dialog-title');
@@ -17,7 +17,7 @@ const shotDialogCaption=document.getElementById('shot-dialog-caption');
 function syncScreenshots(){
   for(const img of document.querySelectorAll('[data-shot]')){
     img.src=shotSrc(img.dataset.shot,state.language);
-    const title=img.closest('.shot-card')?.querySelector('strong')?.textContent||'Soundboard Maker';
+    const title=img.closest('.shot-card, .featured-shot')?.querySelector('strong')?.textContent||'Soundboard Maker';
     img.alt=title+' — Soundboard Maker ('+state.language.toUpperCase()+')';
   }
   if(shotDialog.open && shotDialogImage.dataset.key){

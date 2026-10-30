@@ -22,3 +22,16 @@
 .download-card-icon{display:grid;place-items:center;flex:none;width:45px;height:45px;border:1px solid #7372b6;border-radius:12px;background:#302e71;color:#dddfff;font-size:25px;font-weight:700}
 .download-card h3{font-size:18px;margin:0 0 6px;color:#f1f1ff}.download-card p{margin:0;color:#c0c6e0;font-size:14px;line-height:1.6}
 @media(max-width:720px){.download-cards{grid-template-columns:1fr;gap:12px}.download-card{min-height:auto;padding:18px}}
+
+/* The built-in Soundboard is featured separately beneath the four-item gallery. */
+.featured-shot{display:grid;grid-template-columns:minmax(0,.7fr) minmax(0,1.3fr);gap:0;margin-top:24px;width:100%;padding:0;background:#151b2b;border:1px solid #3b4563;border-radius:19px;color:#eff2ff;font:inherit;text-align:left;overflow:hidden;cursor:pointer;transition:transform .18s ease,border-color .18s ease}
+.featured-shot:hover,.featured-shot:focus-visible{border-color:#8a87ff;transform:translateY(-2px);outline:none}
+.featured-copy{display:flex;flex-direction:column;align-items:flex-start;justify-content:center;gap:13px;padding:30px}
+.featured-copy strong{font-size:clamp(23px,2.5vw,31px);line-height:1.2;letter-spacing:-.035em}
+.featured-description{color:#bac5dc;font-size:15px;line-height:1.7}.featured-view{font-size:14px;font-weight:700;color:#b7b6ff;margin-top:5px}
+.featured-media{display:flex;align-items:center;justify-content:center;min-width:0;background:#101720;border-left:1px solid #343955;padding:10px}
+.featured-media img{display:block;width:100%;height:auto;max-height:440px;object-fit:contain;border-radius:9px}
+.feedback-section{text-align:center;max-width:980px;border-top:1px solid #303653}.feedback-section p{max-width:710px;margin:16px auto 28px;color:#b8c2db}
+@media(max-width:780px){.featured-shot{grid-template-columns:1fr}.featured-copy{padding:25px}.featured-media{border-left:0;border-top:1px solid #343955;padding:8px}.featured-media img{max-height:none}}
+@media(max-width:700px){.nav nav a:nth-child(3),.nav nav a:nth-child(5){display:none}.feedback-section{padding-top:60px}}
+@media(prefers-reduced-motion:reduce){.featured-shot{transition:none}.featured-shot:hover{transform:none}}

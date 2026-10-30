@@ -6,7 +6,7 @@
   <p><strong>Windows · Éditeur audio · Capture & Replay · Stream Deck</strong></p>
   <p><strong>🚀 Version 1.0 en préparation</strong></p>
   <p>🌐 <strong><a href="https://sbmaker.fablitox.fr/">Visiter le site officiel — sbmaker.fablitox.fr</a></strong></p>
-  <p><a href="README.en.md">English</a> · <a href="docs/INSTALLATION.md">Installation</a> · <a href="docs/FAQ.md">FAQ</a> · <a href="https://github.com/Fablitox/SoundBoardMaker/releases">Releases</a></p>
+  <p><a href="README.en.md">English</a> · <a href="docs/INSTALLATION.md">Installation</a> · <a href="docs/FAQ.md">FAQ</a> · <a href="https://github.com/Fablitox/SoundBoardMaker/releases">Releases</a> · <a href="https://github.com/Fablitox/SoundBoardMaker/discussions">Donner mon avis</a></p>
 </div>
 
 ---
@@ -38,7 +38,16 @@
 </table>
 </div>
 
-*Quatre captures réelles de l'application. Cliquez sur une image pour l'agrandir.*
+*Captures réelles du logiciel. Cliquez sur les images pour les agrandir.*
+
+### Soundboard intégré — vos sons à portée de clic
+
+Créez plusieurs pages, organisez vos touches et déclenchez vos sons **directement depuis Soundboard Maker**, sans appareil Stream Deck. Chaque touche peut contrôler son propre son.
+
+<div align="center">
+  <a href="docs/screenshots/Soundboard_FR.png"><img src="docs/screenshots/Soundboard_FR.png" alt="Soundboard intégré de Soundboard Maker, avec pages et touches audio" width="690"></a>
+  <br><sub><b>Le Soundboard intégré au logiciel</b></sub>
+</div>
 
 ## Un seul endroit pour tous vos sons
 
@@ -51,6 +60,7 @@ Soundboard Maker rassemble une bibliothèque audio organisée, un éditeur inté
 ### Les fonctionnalités principales
 
 - **Bibliothèque locale :** import de fichiers, classement en dossiers, favoris, recherche, pages et identification persistante des sons.
+- **Soundboard intégré :** pages et touches audio dans l'application, sans matériel Stream Deck.
 - **Éditeur intégré :** sélection précise, découpe, aperçu, annuler/rétablir et sauvegarde du résultat dans les formats pris en charge.
 - **Lecture flexible :** plusieurs sons peuvent être déclenchés indépendamment, avec des options de routage et d'arrêt.
 - **Capture audio :** enregistrer l'audio système depuis le logiciel ou via les actions Stream Deck.
@@ -85,9 +95,11 @@ Lors de sa publication, la page [Releases](https://github.com/Fablitox/SoundBoar
 
 Consultez le [guide d'installation](docs/INSTALLATION.md) et les [questions fréquentes](docs/FAQ.md). Soundboard Maker est conçu pour Windows 11 64 bits. Pour les commandes Stream Deck, le logiciel Elgato Stream Deck et le plugin correspondant sont nécessaires.
 
-## Assistance
+## Retours des utilisateurs et assistance
 
-Vous avez trouvé un dysfonctionnement ou souhaitez suggérer une amélioration ? Ouvrez une [issue publique](https://github.com/Fablitox/SoundBoardMaker/issues) en suivant le [guide d'assistance](docs/SUPPORT.md). N'y joignez pas de fichiers audio personnels, de journaux contenant des informations privées ou de jetons.
+**Votre avis nous intéresse !** Utilisez les [Discussions Soundboard Maker](https://github.com/Fablitox/SoundBoardMaker/discussions) pour partager vos impressions, proposer une idée ou poser une question.
+
+Pour **signaler un bug reproductible**, utilisez plutôt les [Issues GitHub](https://github.com/Fablitox/SoundBoardMaker/issues/new/choose) en suivant le [guide d'assistance](docs/SUPPORT.md). Ne publiez jamais vos sons personnels, journaux privés ou jetons.
 
 ## À propos de ce dépôt
 
