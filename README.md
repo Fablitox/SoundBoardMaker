@@ -7,7 +7,8 @@
   <p><strong>Vos sons, à portée de main.</strong></p>
   <p>Une application Windows pour organiser, éditer, enregistrer et déclencher vos sons, avec une intégration Stream Deck.</p>
   <p><strong>Windows · Éditeur audio · Capture & Replay · Stream Deck</strong></p>
-  <p><strong>🚀 Version 1.0 en préparation</strong></p>
+  <p><strong>🚀 Soundboard Maker 1.0.0 — Disponible !</strong></p>
+  <p><a href="https://github.com/Fablitox/SoundboardMaker/releases/download/1.0.0/SoundboardMaker-Setup-1.0.0.exe">Télécharger pour Windows</a> · <a href="https://github.com/Fablitox/SoundboardMaker/releases/download/1.0.0/com.soundboardmaker.streamdeck.streamDeckPlugin">Plugin Stream Deck</a> · <a href="https://github.com/Fablitox/SoundboardMaker/releases/tag/1.0.0">Notes de version</a> · <a href="https://github.com/Fablitox/SoundBoardMaker/wiki/Installation-FR">Installation</a></p>
   <p>🌐 <strong><a href="https://sbmaker.fablitox.fr/">Visiter le site officiel — sbmaker.fablitox.fr</a></strong></p>
   <p><a href="https://github.com/Fablitox/SoundBoardMaker/wiki/Installation-FR">Installation</a> · <a href="https://github.com/Fablitox/SoundBoardMaker/wiki/FAQ-FR">FAQ</a> · <a href="https://github.com/Fablitox/SoundBoardMaker/wiki/Accueil">Wiki</a> · <a href="https://github.com/Fablitox/SoundBoardMaker/releases">Releases</a> · <a href="https://github.com/Fablitox/SoundBoardMaker/discussions">Donner mon avis</a></p>
 </div>
@@ -85,14 +86,16 @@ Consultez le [guide de configuration](https://github.com/Fablitox/SoundBoardMake
 
 ## Télécharger
 
-**La première version publique (1.0) est en préparation. Aucun téléchargement n'est encore proposé dans ce dépôt.** Retrouvez la présentation et les guides sur le **[site officiel](https://sbmaker.fablitox.fr/)**.
+**Soundboard Maker 1.0.0 est disponible.**
 
-Lors de sa publication, la page [Releases](https://github.com/Fablitox/SoundBoardMaker/releases) contiendra uniquement :
+[Télécharger pour Windows](https://github.com/Fablitox/SoundboardMaker/releases/download/1.0.0/SoundboardMaker-Setup-1.0.0.exe) · [Plugin Stream Deck](https://github.com/Fablitox/SoundboardMaker/releases/download/1.0.0/com.soundboardmaker.streamdeck.streamDeckPlugin) · [Notes de version 1.0.0](https://github.com/Fablitox/SoundboardMaker/releases/tag/1.0.0) · [Installation](https://github.com/Fablitox/SoundBoardMaker/wiki/Installation-FR)
+
+La [release officielle 1.0.0](https://github.com/Fablitox/SoundboardMaker/releases/tag/1.0.0) fournit :
 
 | Fichier | Utilisation |
 | --- | --- |
-| **Installateur Windows (.exe)** | Installer et mettre à jour Soundboard Maker. |
-| **Plugin Stream Deck (.streamDeckPlugin)** | Téléchargement depuis cette même release GitHub et installation manuelle **jusqu'à sa publication sur Elgato Marketplace**. |
+| [**SoundboardMaker-Setup-1.0.0.exe**](https://github.com/Fablitox/SoundboardMaker/releases/download/1.0.0/SoundboardMaker-Setup-1.0.0.exe) | Installer et mettre à jour Soundboard Maker. |
+| [**com.soundboardmaker.streamdeck.streamDeckPlugin**](https://github.com/Fablitox/SoundboardMaker/releases/download/1.0.0/com.soundboardmaker.streamdeck.streamDeckPlugin) | Téléchargement depuis cette même release GitHub et installation manuelle **jusqu'à sa publication sur Elgato Marketplace**. |
 
 **Pas de version ZIP/portable prévue.** Vérifiez toujours la version et la provenance des fichiers avant installation.
 
@@ -109,5 +112,3 @@ Pour **signaler un bug reproductible**, utilisez plutôt les [Issues GitHub](htt
 ## À propos de ce dépôt
 
 Ce dépôt **public** sert exclusivement à la présentation, à la documentation et à la distribution officielle de Soundboard Maker. **Le code source et son historique de développement restent privés.** Ce dépôt ne constitue pas une publication open source.
-
-© 2026 Soundboard Maker. Tous droits réservés.
