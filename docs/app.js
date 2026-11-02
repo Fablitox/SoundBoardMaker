@@ -1,5 +1,5 @@
 'use strict';
-// Soundboard Maker website interactions. Soundboard demo is visual only.
+// Soundboard Maker website navigation, screenshots and downloads.
 const $ = (selector,scope=document) => scope.querySelector(selector);
 const $$ = (selector,scope=document) => [...scope.querySelectorAll(selector)];
 const menuButton = $('.mobile-toggle');
@@ -67,27 +67,15 @@ $('#open-preview-text')?.addEventListener('click',openDialog);
 $('#close-dialog')?.addEventListener('click',()=>dialog.close());
 dialog?.addEventListener('click',event=>{if(event.target===dialog)dialog.close()});
 
-// Interactive soundboard representation: visual feedback only, no audio.
-const keys=$$('[data-sound-key]');
-const counter=$('#playing-count');
-const indicator=$('.demo-side-indicator');
-function refreshPlaying(){
-  const count=keys.filter(key=>key.getAttribute('aria-pressed')==='true').length;
-  counter.textContent=String(count);
-  indicator?.classList.toggle('has-playing',count>0);
-}
-keys.forEach(key=>key.addEventListener('click',()=>{
-  const playing=key.getAttribute('aria-pressed')!=='true';
-  key.setAttribute('aria-pressed',String(playing));
-  key.classList.toggle('is-playing',playing);
-  const icon=$('.sound-key-play',key);if(icon)icon.textContent=playing?'■':'▶';
-  refreshPlaying();
-}));
-$('#stop-all')?.addEventListener('click',()=>{
-  keys.forEach(key=>{key.classList.remove('is-playing');key.setAttribute('aria-pressed','false');const icon=$('.sound-key-play',key);if(icon)icon.textContent='▶'});
-  refreshPlaying();
+// Open the real Soundboard screenshot in the existing lightbox.
+$('#open-soundboard')?.addEventListener('click',()=>{
+  const shot=$('#soundboard-image');
+  if(!dialog?.showModal||!shot)return;
+  dialogImage.src=shot.src;
+  dialogImage.alt=shot.alt;
+  dialogTitle.textContent=shot.dataset.title||'Soundboard Maker';
+  dialog.showModal();
 });
-
 // Keep accessible navigation highlight in sync without changing the URL structure.
 if('IntersectionObserver' in window){
   const sectionAnchors=$$('.site-nav a[href^="#"]');
